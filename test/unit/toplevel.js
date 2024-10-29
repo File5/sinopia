@@ -6,6 +6,7 @@ var sinopia = require('../../')
 
 var config = {
   storage: __dirname + '/test-storage',
+  self_path: __dirname + '/test-storage',
   packages: {
     '*': {
       allow_access: '$all',
